@@ -1,3 +1,8 @@
 from django.shortcuts import render
 
-# Create your views here.
+from aplikacjaBlog.models import Post
+
+
+def post_list(request):
+    posts = Post.objects.all()
+    return "test 123"

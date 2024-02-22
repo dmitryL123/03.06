@@ -5,12 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e76c3c2-9688-4b6b-aa10-a20f8b10385a" name="Changes" comment="08.02">
+      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Blog/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -86,7 +100,10 @@
       <workItem from="1707397760167" duration="805000" />
       <workItem from="1707399140033" duration="2116000" />
       <workItem from="1707987251518" duration="100000" />
-      <workItem from="1708001077108" duration="4244000" />
+      <workItem from="1708001077108" duration="4531000" />
+      <workItem from="1708591365826" duration="1139000" />
+      <workItem from="1708596801061" duration="6000" />
+      <workItem from="1708605336326" duration="4229000" />
     </task>
     <task id="LOCAL-00001" summary="08.02">
       <option name="closed" value="true" />
@@ -104,7 +121,15 @@
       <option name="project" value="LOCAL" />
       <updated>1708005219404</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="08.02">
+      <option name="closed" value="true" />
+      <created>1708005964652</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1708005964652</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
