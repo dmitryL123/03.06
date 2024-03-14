@@ -4,12 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e76c3c2-9688-4b6b-aa10-a20f8b10385a" name="Changes" comment="08.02">
-      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/static/css/blog.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/base.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/list.html" afterDir="false" />
+    <list default="true" id="7e76c3c2-9688-4b6b-aa10-a20f8b10385a" name="Changes" comment="14.03">
+      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/pagination.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/static/css/blog.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aplikacjaBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +33,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
+  "lastFilter": {
+    "state": "OPEN",
+    "assignee": "dmitryL123"
+  }
+}]]></component>
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/dmitryL123/Django.git",
+    "accountId": "e1bc95d0-2757-4f6e-9a65-85b9e11c524a"
+  }
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -36,23 +54,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "Django Server.Blog.executor": "Run",
-    "Django Server.blog.executor": "Run",
-    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;Django Server.Blog.executor&quot;: &quot;Run&quot;,
+    &quot;Django Server.blog.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenDjangoStructureViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\student\Desktop\Dmitry\Blog\aplikacjaBlog\static\css" />
@@ -89,7 +107,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-python-sdk-5a2391486177-2887949eec09-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.13763.11" />
+        <option value="bundled-js-predefined-1d06a55b98c1-74d2a5396914-JavaScript-PY-241.14494.241" />
+        <option value="bundled-python-sdk-0509580d9d50-28c9f5db9ffe-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.14494.241" />
       </set>
     </attachedChunks>
   </component>
@@ -108,7 +127,13 @@
       <workItem from="1708591365826" duration="1139000" />
       <workItem from="1708596801061" duration="6000" />
       <workItem from="1708605336326" duration="4986000" />
-      <workItem from="1709210185980" duration="3842000" />
+      <workItem from="1709210185980" duration="4120000" />
+      <workItem from="1709801712814" duration="35000" />
+      <workItem from="1709815212992" duration="478000" />
+      <workItem from="1710406428784" duration="28000" />
+      <workItem from="1710419964332" duration="5120000" />
+      <workItem from="1712224494068" duration="17000" />
+      <workItem from="1712230564498" duration="4214000" />
     </task>
     <task id="LOCAL-00001" summary="08.02">
       <option name="closed" value="true" />
@@ -142,7 +167,23 @@
       <option name="project" value="LOCAL" />
       <updated>1708609987755</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="29.02">
+      <option name="closed" value="true" />
+      <created>1709215190990</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1709215190991</updated>
+    </task>
+    <task id="LOCAL-00006" summary="14.03">
+      <option name="closed" value="true" />
+      <created>1710424983030</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1710424983030</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -150,6 +191,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08.02" />
-    <option name="LAST_COMMIT_MESSAGE" value="08.02" />
+    <MESSAGE value="29.02" />
+    <MESSAGE value="14.03" />
+    <option name="LAST_COMMIT_MESSAGE" value="14.03" />
   </component>
 </project>
