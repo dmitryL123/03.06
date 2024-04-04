@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7e76c3c2-9688-4b6b-aa10-a20f8b10385a" name="Changes" comment="14.03">
+    <list default="true" id="7e76c3c2-9688-4b6b-aa10-a20f8b10385a" name="Changes" comment="04.04">
       <change afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/pagination.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" afterDir="false" />
@@ -133,7 +133,7 @@
       <workItem from="1710406428784" duration="28000" />
       <workItem from="1710419964332" duration="5120000" />
       <workItem from="1712224494068" duration="17000" />
-      <workItem from="1712230564498" duration="4214000" />
+      <workItem from="1712230564498" duration="4516000" />
     </task>
     <task id="LOCAL-00001" summary="08.02">
       <option name="closed" value="true" />
@@ -183,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1710424983030</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="04.04">
+      <option name="closed" value="true" />
+      <created>1712235549697</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1712235549697</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -193,6 +201,7 @@
     <MESSAGE value="08.02" />
     <MESSAGE value="29.02" />
     <MESSAGE value="14.03" />
-    <option name="LAST_COMMIT_MESSAGE" value="14.03" />
+    <MESSAGE value="04.04" />
+    <option name="LAST_COMMIT_MESSAGE" value="04.04" />
   </component>
 </project>
