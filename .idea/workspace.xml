@@ -5,46 +5,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="7e76c3c2-9688-4b6b-aa10-a20f8b10385a" name="Changes" comment="04.04">
-      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/pagination.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/aplikacjaBlog/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Blog.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Blog.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/7598529c-d831-4fea-928d-d7870a5b3c7f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/admin.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aplikacjaBlog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/static/css/blog.css" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/static/css/blog.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/templates/Blog/post/detail.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aplikacjaBlog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/aplikacjaBlog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/aplikacjaBlog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/manage.py" beforeDir="false" afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "dmitryL123"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;dmitryL123&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/dmitryL123/Django.git",
-    "accountId": "e1bc95d0-2757-4f6e-9a65-85b9e11c524a"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/dmitryL123/Django.git&quot;,
+    &quot;accountId&quot;: &quot;e1bc95d0-2757-4f6e-9a65-85b9e11c524a&quot;
   }
-}]]></component>
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -133,7 +136,9 @@
       <workItem from="1710406428784" duration="28000" />
       <workItem from="1710419964332" duration="5120000" />
       <workItem from="1712224494068" duration="17000" />
-      <workItem from="1712230564498" duration="4516000" />
+      <workItem from="1712230564498" duration="4816000" />
+      <workItem from="1712821991153" duration="56000" />
+      <workItem from="1712834948920" duration="5297000" />
     </task>
     <task id="LOCAL-00001" summary="08.02">
       <option name="closed" value="true" />
@@ -191,11 +196,30 @@
       <option name="project" value="LOCAL" />
       <updated>1712235549697</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="04.04">
+      <option name="closed" value="true" />
+      <created>1712235586631</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1712235586631</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="08.02" />
