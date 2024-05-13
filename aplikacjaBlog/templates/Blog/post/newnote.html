@@ -1,0 +1,16 @@
+{% extends "blog/base.html" %}
+{% block title %}{{ post.title }}{% endblock %}
+
+{% block content %}
+    <h1>Dodaj notatke</h1>
+
+    <div id="dodawanie">
+        Nazwa <input type="text">
+        Tresc <textarea id="tresc"></textarea>
+        Autor <select>
+                <option>admin</option>
+              </select>
+        Zapisz <input type="submit">
+    </div>
+
+{% endblock %}

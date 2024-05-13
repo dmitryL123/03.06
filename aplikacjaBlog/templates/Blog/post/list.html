@@ -1,20 +1,27 @@
 {% extends "blog/base.html" %}
 
-{% block title %}Mój blog{% endblock %}
+{% block title %}Notatki{% endblock %}
 
 {% block content %}
-    <h1>Mój blog</h1>
+    <h1>Moje notatki</h1>
     {% for post in posts %}
         <h2>
             <a href="{{ post.get_absolute_url }}">
                 {{ post.title }}
             </a>
         </h2>
-        <p class="data">
-        Opublikowany {{ post.publish }} przez {{ post.author }}
-        </p>
+
         {{ post.body|truncatewords:30|linebreaks }}
+        <p class="date">
+            Opublikowana {{ post.publish }} przez {{ post.author }}
+        </p>
     {% endfor %}
+
+    <div id="addnew">
+        <a href="/admin/aplikacjaBlog/post/add/">
+               <h3>Dodaj nową notatkę</h3>
+        </a>
+    </div>
 
     {% include "Blog/pagination.html" with page=page_obj %}
 {% endblock %}
